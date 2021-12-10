@@ -10,6 +10,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13A.
 
 ## BOM 
 
+- 1x Christmas Tree PCB
 - 1x ATtiny 85 / 13A
 - 1x TTP223E-BA6
 - 1x microUSB connector (used only for power)
