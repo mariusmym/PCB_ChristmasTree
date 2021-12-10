@@ -6,6 +6,8 @@ My own reinterpretation of a PCB Christmas tree.
 - There are 11 LEDs controlled by four ATtiny pins, plus a TTP223 touch sensor linked to another ATtiny pin which acts as a switch who toggle between different lightning patterns (including an OFF "pattern").
 - I designed the PCB in order to be able to use both SMD and classic 3mm leds.
 
+![PCB_ChristmasTree](https://user-images.githubusercontent.com/33284097/145599348-2ee62fd5-432d-4f92-88df-88caba1b6874.gif)
+
 ## BOM 
 
 - 1x ATtiny 85 / 13A
@@ -70,9 +72,7 @@ To upload the sketch i used a programmer testing clip https://www.aliexpress.com
 
 ![5](https://user-images.githubusercontent.com/33284097/145583569-b59e9766-1832-4188-b715-24c346c8e05d.jpeg)
 
-## ENJOY !!!
-
-![PCB_ChristmasTree](https://user-images.githubusercontent.com/33284097/145599348-2ee62fd5-432d-4f92-88df-88caba1b6874.gif)
+ - Enjoy your little Christmas Tree  !!!
 
 
 
