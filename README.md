@@ -84,7 +84,7 @@ You can try to do it after you solder the ATtiny to the PCB, but sometimes you'l
 
 ![7](https://user-images.githubusercontent.com/33284097/145625715-649c3305-ba23-4972-b937-eb247227fa6a.jpeg)
 
-- **Connect a microUSB cable and enjoy your little PCB Christmas tree !!! ***
+- **Connect a microUSB cable and enjoy your little PCB Christmas tree !!! **
 
 
 
