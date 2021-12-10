@@ -73,7 +73,7 @@ You can try to do it after you solder the ATtiny to the PCB, but sometimes you'l
 
 ![5](https://user-images.githubusercontent.com/33284097/145583569-b59e9766-1832-4188-b715-24c346c8e05d.jpeg)
 
- - Proceed to sloder the microchip and enjoy your little Christmas Tree  !!!
+ - **Proceed to sloder the microchip and enjoy your little Christmas Tree  !!!**
 
 
 
