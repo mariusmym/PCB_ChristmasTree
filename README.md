@@ -8,17 +8,17 @@ I designed the PCB in order to be able to use both SMD and classic 3mm leds.
 
 ## BOM 
 
-1x ATtiny 85 / 13A
-1x TTP223E-BA6
-1x microUSB connector (used only for power)
-1x AMS1117 3.3V SOT223
-1x 30pF capacitor
-1x 0.1uF capacitor
-1x 1kΩ resistor
-1x 0805 LED
-2x 1uF capacitor
-11x 470Ω resistor
-11x 1206 LED (or classic 3mm leds)
+- 1x ATtiny 85 / 13A
+- 1x TTP223E-BA6
+- 1x microUSB connector (used only for power)
+- 1x AMS1117 3.3V SOT223
+- 1x 30pF capacitor
+- 1x 0.1uF capacitor
+- 1x 1kΩ resistor
+- 1x 0805 LED
+- 2x 1uF capacitor
+- 11x 470Ω resistor
+- 11x 1206 LED (or classic 3mm leds)
 
  ## About the PCB
  
