@@ -60,15 +60,14 @@ My own reinterpretation of a PCB Christmas tree.
  - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it on ATtiny13A (which, as you know, have a lot less memory available).
   - You will need damellis attiny library https://github.com/damellis/attiny if you want to use ATtiny85.
   - If you use an ATtiny13A you will need MCUdue MicroCore library https://github.com/MCUdude/MicroCore .
-  For MicroCore library I used the following settings 
+  - For MicroCore library I used the following settings:
+    - BOD: 1.8 V
+    - EEPROM: Retained
+    - Clock: 1.2 Mhz internal
+    - Timming: Micros disabled
+    - Programmer : Arduino as ISP slow (MicroCore)
   
-- BOD: 1.8 V
-- EEPROM: Retained
-- Clock: 1.2 Mhz internal
-- Timming: Micros disabled
-- Programmer : Arduino as ISP slow (MicroCore)
-  
-To upload the sketch i used a programmer testing clip https://www.aliexpress.com/item/1005002401064440.html.
+- To upload the sketch i used a programmer testing clip https://www.aliexpress.com/item/1005002401064440.html.
 
 ![5](https://user-images.githubusercontent.com/33284097/145583569-b59e9766-1832-4188-b715-24c346c8e05d.jpeg)
 
