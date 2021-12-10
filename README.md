@@ -80,7 +80,7 @@ You can try to do it after you solder the ATtiny to the PCB, but sometimes you'l
  
 ![7](https://user-images.githubusercontent.com/33284097/145625428-3a7c118d-9201-4078-b927-46d33bdeb2f6.jpeg)
 
-- After you placed the PCBs in the right way, align them properly and then solder the connecting pads.
+- After you placed the PCBs in the right way, align them properly and then solder **ALL** of the connecting pads.
 
 ![6](https://user-images.githubusercontent.com/33284097/145626576-d5d8aa6d-4edb-4404-9ec8-0659f093521a.jpg)
 
