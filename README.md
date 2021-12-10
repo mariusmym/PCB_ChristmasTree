@@ -54,7 +54,8 @@ My own reinterpretation of a PCB Christmas tree.
  ## Uploading the sketch
  
  
-**BEWARE ! - you must upload the sketch BEFORE soldering the microchip to the PCB !** You can try to do it after you solder the ATtiny to the PCB, but sometimes you'll get an uploading error, so is safer to do it before soldering.
+**BEWARE ! - you must upload the sketch BEFORE soldering the microchip to the PCB !** 
+You can try to do it after you solder the ATtiny to the PCB, but sometimes you'll get an uploading error, so is safer to do it before soldering.
 
  - I'm just a regular guy passionate about making stuff, so dont expect a very neat code. 
  - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it on ATtiny13A (which, as you know, have a lot less memory available).
