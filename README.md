@@ -74,7 +74,8 @@ You can try to do it after you solder the ATtiny to the PCB, but sometimes you'l
 
 ![5](https://user-images.githubusercontent.com/33284097/145583569-b59e9766-1832-4188-b715-24c346c8e05d.jpeg)
 
- - Proceed to solder the microchip, and all of the other remaining components, insert the PCB into each other **beware that in the lower part of the PCBs there are two little circles that needs to be _face to face_ when you solder the PCBs together (see the picture below)** 
+ - Proceed to solder the microchip, and all of the other remaining components, insert the PCB into each other.
+ - **Beware that in the lower part of the PCBs there are two little circles that needs to be _face to face_ when you solder the PCBs together (see the picture below)** 
  
 ![7](https://user-images.githubusercontent.com/33284097/145625428-3a7c118d-9201-4078-b927-46d33bdeb2f6.jpeg)
 
