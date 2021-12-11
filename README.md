@@ -65,14 +65,14 @@ You can try to do it after, but sometimes you'll get an uploading error, so is s
  - I'm just a regular guy passionate about making stuff, so dont expect a very neat code. 
  - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it on ATtiny13A (which, as you know, have a lot less memory available).
  - --------------------------------------------------
-  - You will need damellis attiny library https://github.com/damellis/attiny if you want to use **ATtiny85** .
+  - You will need damellis attiny board package https://github.com/damellis/attiny if you want to use **ATtiny85** .
     - Go to **Tools -> Board -> ATtiny Microcontrollers** and select **ATtiny25/45/85**.
     - Go to **Tools** and choose the following board options:
       - **Processor:** ATtiny85
       - **Clock:** Internal 1 Mhz
       - **Programmer:** Arduino as ISP
     - --------------------------------------------------
-  - If you use an **ATtiny13/13A** you will need MCUdue MicroCore library https://github.com/MCUdude/MicroCore .
+  - If you use an **ATtiny13/13A** you will need MCUdue MicroCore board package https://github.com/MCUdude/MicroCore .
     - Go to **Tools -> Board -> MicroCore** and select **ATtiny13**.
     - Go to **Tools** and choose the following board options:
       - **BOD:** 1.8 V
