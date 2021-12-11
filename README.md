@@ -63,7 +63,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
 You can try to do it after, but sometimes you'll get an uploading error, so is safer to do it before soldering.
 
  - I'm just a regular guy passionate about making stuff, so dont expect a very neat code. 
- - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it on ATtiny13A (which, as you know, have a lot less memory available).
+ - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it into ATtiny13A as well (which, as you know, have a lot less memory available).
  - --------------------------------------------------
   - You will need damellis attiny board package https://github.com/damellis/attiny if you want to use **ATtiny85** .
     - Go to **Tools -> Board -> ATtiny Microcontrollers** and select **ATtiny25/45/85**.
@@ -82,7 +82,7 @@ You can try to do it after, but sometimes you'll get an uploading error, so is s
       - **Programmer:** Arduino as ISP slow (MicroCore)
   - --------------------------------------------------
   
-- To upload the sketch i used a programmer testing clip https://www.aliexpress.com/item/1005002401064440.html.
+- To upload the sketch I used a programmer testing clip ( https://www.aliexpress.com/item/1005002401064440.html ) and an Arduino Uno board.
 
 ![5](https://user-images.githubusercontent.com/33284097/145583569-b59e9766-1832-4188-b715-24c346c8e05d.jpeg)
 
