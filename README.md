@@ -5,6 +5,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
 - Some of the ideas are my own, others are _borrowed_ from various projects around the web.
 - There are 11 LEDs controlled by four ATtiny pins, plus a TTP223 touch sensor linked to another ATtiny pin which acts as a switch who toggle between different lightning patterns (including an OFF "pattern").
 - I designed the PCB in order to be able to use both SMD and classic 3mm LEDs.
+- Please read this file **entirely** before start.
 
 ![PCB_ChristmasTree](https://user-images.githubusercontent.com/33284097/145599348-2ee62fd5-432d-4f92-88df-88caba1b6874.gif)
 
@@ -218,18 +219,16 @@ void power_off()
  
 **BEWARE ! - you must upload the sketch BEFORE soldering the microchip to the PCB !** 
 You can try to do it after, but sometimes you'll get an uploading error, so is safer to do it before soldering.
-
- - I'm just a regular guy passionate about making stuff, so dont expect a very neat code. 
- - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it into ATtiny13A as well (which, as you know, have a lot less memory available).
+ - As I said earlier, I'm just a regular guy, so I stick to the basics and I used Arduino IDE to compile and upload the sketch. Depending on what kind of chip do you use, you will need one of the following board packages installed in your Arduino IDE.
  - --------------------------------------------------
-  - You will need damellis attiny board package https://github.com/damellis/attiny if you want to use **ATtiny85** .
+  - For **ATtiny85** you will need damellis attiny board package installed https://github.com/damellis/attiny  then :
     - Go to **Tools -> Board -> ATtiny Microcontrollers** and select **ATtiny25/45/85**.
     - Go to **Tools** and choose the following board options:
       - **Processor:** ATtiny85
       - **Clock:** Internal 1 Mhz
       - **Programmer:** Arduino as ISP
     - --------------------------------------------------
-  - If you use an **ATtiny13/13A** you will need MCUdue MicroCore board package https://github.com/MCUdude/MicroCore .
+  - For **ATtiny13/13A** you will need MCUdue MicroCore board package installed https://github.com/MCUdude/MicroCore then:
     - Go to **Tools -> Board -> MicroCore** and select **ATtiny13**.
     - Go to **Tools** and choose the following board options:
       - **BOD:** 1.8 V
