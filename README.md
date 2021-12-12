@@ -89,7 +89,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
  * PCINT0 in the name for the ISR was confusing to me at first, 
  * hence the Alias, but it's how the datasheet refers to it)
  */
-#define PCINT_VECTOR PCINT0_vect      // This step is not necessary - it's a naming thing for clarity
+#define PCINT_VECTOR PCINT0_vect     
 
 volatile uint8_t pushCount = 0; // variables used within ISR must be declared Volatile.
 
@@ -107,9 +107,9 @@ void setup() {
 
     DDRB &= ~(0 << DATADIRECTIONPIN);  //replaces pinMode(INT_PIN, INPUT);
     
-    PORTB |= (1<< INT_PIN); //disable pull-up. must hook up pulldown resistor [ 1K ].
+    PORTB |= (1<< INT_PIN); //disable pull-up. Must hook up pulldown resistor [ 1K ].
 
-    sei();                            //last line of setup - enable interrupts after setup
+    sei();                            // enable interrupts after setup
 
 }
 
