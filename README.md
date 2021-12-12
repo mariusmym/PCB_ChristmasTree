@@ -28,7 +28,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
 
  ## About the PCB
  
-- Please be aware when you order the PCB. The PCB is designed for a **thickness of 1.2mm**.If you want to use SMD leds you need to order the PCB with a **1.2mm thickness** , otherwise you won't be able to solder the LEDs. If you plan to use regular LEDs and you want a 1.6 mm thick PCB, you have to adjust **the width of that middle cuts** (where PCBs interconnect with eachother and make it 1.6mm in width as well).
+- Please be aware when you order the PCB. The PCB is designed for a **thickness of 1.2mm**.If you want to use SMD leds you need to order the PCB with a **1.2mm thickness** , otherwise you won't be able to solder the LEDs. If you plan to use regular LEDs and you want a 1.6 mm thick PCB, you have to adjust **the width of those middle cuts** (where PCBs interconnect with eachother and make them 1.6mm as well).
 
 ![8](https://user-images.githubusercontent.com/33284097/145671972-7d71fac2-ec73-46ed-a595-982298f65a97.jpeg)
 
@@ -37,7 +37,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
  
 - The PCB is designed to allow the vertical mount of the SMD LEDs on the edges of those cutouts. This way you can see them from both sides of the PCB.
 - In order to do that you have to apply some solder on one of the pads and then place the LED on the edge with the help of a tweezer.
- - Use the same tweezer to keep the led against that edge and apply some more solder until the pads on the LED connect with the PCB pad. 
+- Use the same tweezer to keep the led against that edge and apply some more solder until the pads on the LED connect with the PCB pad. 
  
  ![1](https://user-images.githubusercontent.com/33284097/145580714-597fc16f-fdea-422a-a43f-3ff2a5e16f6b.jpeg)
   
@@ -53,7 +53,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
 
  - It will become easier after few LEDs but it will be hard anyway.
  
- - Is definitely easier to use normal 3mm LEDs, but to be honest i like it more with the SMD LEDs.
+ - Is definitely easier to use normal 3mm LEDs, but to be honest I like it more with the SMD LEDs.
  
  ![3mm](https://user-images.githubusercontent.com/33284097/145581015-fbfd24c9-448b-4595-a6d0-730f812f5741.jpeg)
 
@@ -63,7 +63,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
  
  ## Implementation
  
- - I'm just a regular guy passionate about making stuff, so dont expect a very neat code.
+ - I'm just a regular guy passionate about making stuff, so don't expect a very neat code. Maybe is not that _"pretty"_ but it works ! :)
  - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it into ATtiny13A as well (which, as you know, have a lot less memory available).
 
 ```C++
