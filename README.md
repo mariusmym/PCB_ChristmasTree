@@ -30,8 +30,7 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
  
 - Please be aware when you order the PCB. The PCB is designed for a **thickness of 1.2mm**.If you want to use SMD leds you need to order the PCB with a **1.2mm thickness** , otherwise you won't be able to solder the LEDs. If you plan to use regular LEDs and you want a 1.6 mm thick PCB, you have to adjust **the width of those middle cuts** (where PCBs interconnect with eachother and make them 1.6mm as well).
 
-![8](https://user-images.githubusercontent.com/33284097/145671972-7d71fac2-ec73-46ed-a595-982298f65a97.jpeg)
-
+![8](https://user-images.githubusercontent.com/33284097/145707877-e1821586-3496-43c5-bea2-41e4a5aa40c6.jpeg)
  
  ## Soldering SMD LEDs
  
