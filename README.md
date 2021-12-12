@@ -8,6 +8,8 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
 
 ![PCB_ChristmasTree](https://user-images.githubusercontent.com/33284097/145599348-2ee62fd5-432d-4f92-88df-88caba1b6874.gif)
 
+# Hardware
+
 ## BOM 
 
 - 1x Christmas Tree PCB
@@ -56,9 +58,11 @@ My own version of a PCB Christmas tree, using an ATtiny85 / ATtiny13/13A.
 
 
 
- ## Software
+ # Software
  
- - I'm just a regular guy passionate about making stuff, so dont expect a very neat code. 
+ ## Implementation
+ 
+ - I'm just a regular guy passionate about making stuff, so dont expect a very neat code.
  - I made a small sketch using Arduio IDE and ATtiny registers in order to reduce the size of it a little bit, so I can upload it into ATtiny13A as well (which, as you know, have a lot less memory available).
 
 ```C++
@@ -210,7 +214,7 @@ void power_off()
 }
 ```
  
- 
+ ## Compiling and Uploading
  
 **BEWARE ! - you must upload the sketch BEFORE soldering the microchip to the PCB !** 
 You can try to do it after, but sometimes you'll get an uploading error, so is safer to do it before soldering.
